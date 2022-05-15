@@ -1,6 +1,6 @@
 package src;
 
-public class Carro extends Veiculo {
+public class Carro extends Veiculo {  //Metodo modificado para apenas esse objeto
 	
 	private boolean quatroPortas;
 
