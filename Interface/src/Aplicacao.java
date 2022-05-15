@@ -18,10 +18,10 @@ public class Aplicacao {
 //		rota.ir(automovel);
 //
 		
-		Vendedor vendedor = new Vendedor();
+		Vendedor vendedor = new Vendedor();  //criacao de um novo objeto
 		Apartamento apartamento = new Apartamento();
 		
-		vendedor.mostrarPreco(apartamento);
+		vendedor.mostrarPreco(apartamento);  //uso de metodo para tal objeto
 		vendedor.mostrarPreco(ferrari);
 	}
 
