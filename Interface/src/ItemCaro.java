@@ -1,5 +1,5 @@
 
 public interface ItemCaro {
-	double getPreco();
-	
+	double getPreco();  //cria variavel 
+	 
 }
