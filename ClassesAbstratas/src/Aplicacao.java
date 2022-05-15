@@ -3,16 +3,16 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
-		Item item = new Item();          //N�o pode ser instanciado pois � abstrato
+		//Item item = new Item();          //Não pode ser instanciado pois é abstrato
 		
-		Item item = new Cogumelo();
-		item.pegar();
+		Item item = new Cogumelo();  //instanciaçao do objeto
+		item.pegar(); //usado o metodo nele
 		
-		item = new Moeda();
-		item.pegar();
+		item = new Moeda(); //instanciaçao do objeto
+		item.pegar();//usado o metodo nele
 		
-		item = new Diamante();
-		item.pegar();
+		item = new Diamante();//instanciaçao do objeto
+		item.pegar();//usado o metodo nele
 		
 	}
 
