@@ -1,8 +1,8 @@
 public class Data {
-	public static final int FORMATO_12H = 1;
+	public static final int FORMATO_12H = 1;  //Cria√ßao de variaveis estaticas
 	public static final int FORMATO_24H = 2;
 
-	private int dia;
+	private int dia;     //Cria√ßao das variaveis
 	private int mes;
 	private int ano;
 	private int hora = -1;
@@ -16,7 +16,7 @@ public class Data {
 		this.ano = ano;
 	}
 	
-			// Construtor completo, que recebe informaÁıes de data e hor·rio
+			// Construtor completo, que recebe informa√ß√µes de data e hor√°rio
 	public Data(int dia, int mes, int ano, int hora, int minuto, int segundo) {
 		// Chama o outro construtor da classe
 		this (dia, mes, ano);
@@ -28,19 +28,19 @@ public class Data {
 	
 			// Imprime a data/hora formatada (de acordo com o formato especificado)
 	public void imprimir(int formato) {
-		// Monta a string de impress„o de data
+		// Monta a string de impress√£o de data
 		String data = dia + "/" + mes + "/" + ano;
 		
 		if (hora == -1) {
-			// Se hora for -1, significa que os dados de hor·rio n„o foram passado no construtor.
-			// Ent„o exibe sÛ a data
+			// Se hora for -1, significa que os dados de hor√°rio n√£o foram passado no construtor.
+			// Ent√£o exibe s√≥ a data
 			System.out.println(data);
 		} else {
-			// Monta parte da string da hor·rio (deixa a hora de fora por enquanto)
+			// Monta parte da string da hor√°rio (deixa a hora de fora por enquanto)
 			String horario = ":" + minuto + ":" + segundo;
 			
 			if (formato == FORMATO_24H) {
-				// Se o formato for 24h, concatena a hora no inÌcio da string (o atributo j· foi
+				// Se o formato for 24h, concatena a hora no in√≠cio da string (o atributo j√° foi
 				// fornecido no formato 24h)
 				horario = hora + horario;
 			} else {
@@ -50,20 +50,20 @@ public class Data {
 					horario += " AM";
 				
 				} else if (hora >= 12) {
-					// Se hora for maior ou igual a 12, È preciso subtrair 12 da hora para obter 
+					// Se hora for maior ou igual a 12, √© preciso subtrair 12 da hora para obter 
 					// a hora no formato 12h, e concatena o "PM" no fim
 					horario = (hora - 12) + horario;
 					horario += " PM";
 				
 				} else {
-					// Se a hora for menor que 12, simplesmente utiliza a prÛpria hora e concatena
+					// Se a hora for menor que 12, simplesmente utiliza a pr√≥pria hora e concatena
 					// o "AM" no fim
 					horario = hora + horario;
 					horario += " AM";
 				}
 				if(hora > 23) {
 					System.out.println(data);
-					System.out.println("Hor·rio inv·lido");
+					System.out.println("Hor√°rio inv√°lido");
 					
 				}
 			}
@@ -73,7 +73,7 @@ public class Data {
 		}
 	}
 
-	// MÈtodos getters
+	// M√©todos getters
 	
 	public int getDia() {
 		return dia;
