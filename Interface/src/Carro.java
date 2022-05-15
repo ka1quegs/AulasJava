@@ -1,7 +1,7 @@
 
 public interface Carro extends Automovel {
 	
-	public void AbrirPorta();
-	
+	public void AbrirPorta();  //metodo criado
+	 
 }
 
