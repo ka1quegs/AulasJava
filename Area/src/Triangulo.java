@@ -1,32 +1,28 @@
 
 public class Triangulo implements AreaCalculavel{
 	
-	int base;
+	int base;  //Criação de variaveis
 	int altura;
-	public double getbase() {
+	public double getbase() { //pegará o valor da base e retornará o mesmo
 		return base;
 	}
 	
-	public double getBase() {
-		return base;
-	}
 
-	public void setBase(int base) {
+	public void setBase(int base) {  //modificará o valor da base
 		this.base = base;
 	}
 
-	public double getAltura() {
+	public double getAltura() { //pegará o valor da altura e retornará o mesmo
 		return altura;
 	}
 
-	public void setAltura(int altura) {
+	public void setAltura(int altura) {  //modificará o valor da altura
 		this.altura = altura;
 	}
 
-	@Override
-	public void calcularArea() {
-		// TODO Auto-generated method stub
-		System.out.println("O valor da conta do triangulo � " + base*altura);
+	@Override								//Dá override (subscrever) tal metodo
+	public void calcularArea() { 
+		System.out.println("O valor da conta do triangulo é " + base*altura);
 		
 	}
 	
