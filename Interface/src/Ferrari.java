@@ -19,7 +19,7 @@ public class Ferrari implements Automovel, ItemCaro {
 	}
 
 	@Override
-	public double getPreco() {
+	public double getPreco() {  //subescreve o valor
 		
 		return 1250000;
 	}
