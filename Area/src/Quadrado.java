@@ -14,7 +14,7 @@ public class Quadrado implements AreaCalculavel {
 	@Override
 	public void calcularArea() { //dado override do metodo Calcular area
 		// TODO Auto-generated method stub
-		System.out.println("O valor é " + Math.pow(lado, 2));
+		System.out.println("O valor é " + Math.pow(lado, 2)); //Math.pow metodo já dado pelo eclipse, que auxilia em calculos de potenciação
 	}
 
 
