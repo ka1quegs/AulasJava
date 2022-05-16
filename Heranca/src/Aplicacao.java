@@ -4,7 +4,7 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
-		Veiculo veiculo = new Veiculo(); //criacao de objeto
+		Veiculo veiculo = new Veiculo(); //criacao de objeto  o New cria um espaço na memoria heap, e o Veiculo após dele é o construtor q irá alocar na variavel veiculo.
 		
 		veiculo.setMarca("Nissan");  //dá informaçao para cada atributo
 		veiculo.setModelo("GTR");
