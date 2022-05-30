@@ -1,0 +1,3 @@
+Mouse [funciona=false, qtdBotoes=0, tamanho=null]
+Mouse [funciona=false, qtdBotoes=0, tamanho=null]
+Mouse [funciona=false, qtdBotoes=0, tamanho=null]
