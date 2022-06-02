@@ -1,0 +1,4 @@
+Nome:1, Sexo:MASCULINO, Idade:1, Número da casa: 11, Rua:1,Bairro:1
+Nome:1, Sexo:MASCULINO, Idade:1, Número da casa: 1, Rua:1,Bairro:1
+Nome:1, Sexo:MASCULINO, Idade:1, Número da casa: 1, Rua:1,Bairro:1
+Nome:1, Sexo:MASCULINO, Idade:1, Número da casa: 1, Rua:1,Bairro:1
