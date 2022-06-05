@@ -4,31 +4,31 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in); //CriaÃ§ao de um scanner, para recebimento de dados
 		
 			
 		
 		Matematica matematica = new Matematica();
 		
-		System.out.println("Somar dois números");
-		System.out.println("Digite o primeiro número: ");
+		System.out.println("Somar dois nÃºmeros");
+		System.out.println("Digite o primeiro nÃºmero: ");
 		int x = scanner.nextInt();
 		
-		System.out.println("Digite o segundo número: ");
+		System.out.println("Digite o segundo nÃºmero: ");
 		int y = scanner.nextInt();
 		
 		
 		int soma = matematica.somar(x, y);
 		
-		System.out.println("O resultado é " +  soma);
+		System.out.println("O resultado Ã© " +  soma);
 		
 		soma = matematica.somar(x, y, 5);
 		
-		System.out.println("O resultado é " +  soma);
+		System.out.println("O resultado Ã© " +  soma);
 		
 		double soma2 = matematica.somar(x, y);
 		
-		System.out.println("O resultado é " +  soma2);
+		System.out.println("O resultado Ã© " +  soma2);
 		
 	}
 
