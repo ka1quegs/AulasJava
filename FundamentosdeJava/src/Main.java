@@ -17,20 +17,20 @@ public class Main {
 //		 System.out.println(a);
 //		 System.out.println(b);
 
-//		int idadePessoa = 18;
-//		if (idadePessoa < 18) {
-//			System.out.println("Voc� n�o pode beber");
+//		int idadePessoa = 18;       //criação da variavel de idade com valor atribuido 18
+//		if (idadePessoa < 18) {      //condição SE, caso a pessoa tenha entre 18 e 60 anos  (uma mensagem será mostrada que a pessoa pode beber) caso contrário a mensagem será negada.
+//			System.out.println("Você não pode beber");
 //		} else if (idadePessoa < 60) {
 //			System.out.println("Bora Tomar uma");
 //		} else {
 //			System.out.println("Volta para o asilo");
 //		}
 //
-//		System.out.println("Voc� tem " + idadePessoa + " anos");
+//		System.out.println("Você tem " + idadePessoa + " anos");
 
 //		int num = 6;
 //
-//		switch (num) {
+//		switch (num) {               //Usado o Switch case (dado valores para cada case de 1 a 7, contendo informações, escolhendo, mostrará o dia da semana
 //		case 1:
 //			System.out.println("Domingo");
 //			break;
@@ -38,7 +38,7 @@ public class Main {
 //			System.out.println("Segunda-Feira");
 //			break;
 //		case 3:
-//			System.out.println("Ter�a-Feira");
+//			System.out.println("Terça-Feira");
 //			break;
 //		case 4:
 //			System.out.println("Quarta-Feira");
@@ -50,23 +50,23 @@ public class Main {
 //			System.out.println("Sexta-Feira");
 //			break;
 //		case 7:
-//			System.out.println("S�bado");
+//			System.out.println("Sábado");
 //			break;
 //		default:
-//			System.out.println("Esse n�mero n�o representa um dia da semana");
+//			System.out.println("Esse número não representa um dia da semana");
 //		}
 
 //		char caractere = 'c';
 //		
 //		switch(caractere) {
 //		case 'a':
-//			System.out.println("seu caractere � a");
+//			System.out.println("seu caractere é a");
 //			break;
 //		case 'b':
-//			System.out.println("seu caractere � b");
+//			System.out.println("seu caractere é b");
 //			break;
 //			default:
-//				System.out.println("valor inv�lido");
+//				System.out.println("valor inválido");
 //				
 //		}
 //		
@@ -77,13 +77,13 @@ public class Main {
 //			System.out.println("Pare !!");
 //			break;
 //		case "amarelo":
-//			System.out.println("Aten�ao !!");
+//			System.out.println("Atençao !!");
 //			break;
 //		case "verde":
 //			System.out.println("Siga !!");
 //			break;
 //			default:
-//				System.out.println("Valor inv�lido");
+//				System.out.println("Valor inválido");
 //		}
 
 //		int x=0;
@@ -111,7 +111,7 @@ public class Main {
 //		int total = 0;
 //		
 //		Scanner ler = new Scanner(System.in);
-//		System.out.println("Informe um n�mero: ");
+//		System.out.println("Informe um número: ");
 //		valorUsuario = ler.nextInt();
 //		
 //		for (int x = 0; x < 10; x++) {
@@ -135,7 +135,7 @@ public class Main {
 
 		double x[] = { 3, 5, 3, 5 };
 
-		for (int aux = 0; aux < x.length; aux++) {
+		for (int aux = 0; aux < x.length; aux++) {      //laço de repetição, que mostra o valor e a posição no indice.
 			System.out.println("Valor do indice " + aux + " = " + x[aux]);
 		}
 
@@ -144,7 +144,7 @@ public class Main {
 		for (int aux1 = 0; aux1 < nome.length; aux1++) {
 			System.out.println(nome[aux1]);
 			if (nome[aux1] == "Kaique") {
-				System.out.println("O indice de Kaique � =  " + aux1);
+				System.out.println("O indice de Kaique é =  " + aux1);
 			}
 		}
 		
