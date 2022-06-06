@@ -8,7 +8,7 @@ public class Pessoa {
 	
 	
 	
-	public Pessoa(String linha) {
+	public Pessoa(String linha) {      //manipulando o objeto pessoa
 		
 		String[] arrayLinha = linha.split(",");
 		
