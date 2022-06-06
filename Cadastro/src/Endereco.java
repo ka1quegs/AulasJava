@@ -8,7 +8,7 @@ public class Endereco {
 
 	public Endereco(String[] arrayLinha) {
 		
-		String[] arrayNum = arrayLinha[3].split(":");
+		String[] arrayNum = arrayLinha[3].split(":");     //manipulando objeto, split == quebra linha , trim == corta a linha
 		this.num = Integer.parseInt(arrayNum[1].trim());
 		
 		String[] arrayRua = arrayLinha[4].split(":");
@@ -42,7 +42,7 @@ public class Endereco {
 	
 	@Override
 	public String toString() {
-		return ", Número da casa: " + num + ", Rua:" + rua + ",Bairro:" + bairro;
+		return ", NÃºmero da casa: " + num + ", Rua:" + rua + ",Bairro:" + bairro;
 	}
 
 	
