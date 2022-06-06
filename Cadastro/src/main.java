@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class main {
 	public static void main(String[] args) throws IOException {
 
-		try (Scanner entrada = new Scanner(System.in)) {  
+		try (Scanner entrada = new Scanner(System.in)) {   //força a execução do scanner
 			List<Pessoa> lista = new ArrayList<Pessoa>();
 
 			for (int x = 0; x < 4; x++) {  //Laço de repetição para adiciona até 4 pessoas
