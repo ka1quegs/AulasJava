@@ -9,8 +9,8 @@ public class Pessoa {
 	
 	
 	
-	public Pessoa(String linha) {      //manipulando o objeto pessoa
-		
+	public Pessoa(String linha) {      
+		 //manipulando objeto, split == quebra linha , trim == corta a linha
 		String[] arrayLinha = linha.split(",");
 		
 		String[] arrayNome = arrayLinha[0].split(":");
