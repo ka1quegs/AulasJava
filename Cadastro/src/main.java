@@ -27,7 +27,7 @@ public class main {
 
 				System.out.print("Digite seu sexo 1-Masculino 2-Feminino: ");  // Caso 1 vai direcionar o sexo masculino, caso 2 direciona o sexo feminino, se for outro dará sexo inexistente
 				int opcao = 0;
-				while (opcao != 1 && opcao != 2) {
+				while (opcao != 1 && opcao != 2) { //laço de repetiçao While, enquanto a opcao for diferente de 1 e 2 faz as açoes abaixo
 					opcao = entrada.nextInt();
 					if (opcao == 1)           //uso das condiçoes
 						pessoa.setSexo(Sexo.MASCULINO);
@@ -54,7 +54,7 @@ public class main {
 
 			try (BufferedWriter escrever = new BufferedWriter(new FileWriter("saida.txt"))) {    //Escreve o arquivo txte
 				for (Pessoa Pessoa : lista) {
-					escrever.write(Pessoa.toString());
+					escrever.write(Pessoa.toString()); // o to string faz a ciclagem dos dados de cada pessoa
 
 				}
 			}
@@ -63,8 +63,8 @@ public class main {
 			try (BufferedReader reader = new BufferedReader(new FileReader("saida.txt"))) {
 				String line;
 
-				while ((line = reader.readLine()) != null) {
-					Pessoa pessoa = new Pessoa(line);
+				while ((line = reader.readLine()) != null) { //enquanto uma linha ter conteudo ela será lida
+					Pessoa pessoa = new Pessoa(line); //instanciacao para o txt
 
 					ListaPessoas2.add(pessoa);
 				}
