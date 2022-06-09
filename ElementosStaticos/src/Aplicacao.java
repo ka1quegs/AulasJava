@@ -23,7 +23,7 @@ public class Aplicacao {
 //		
 //		Contador contador3 = new Contador();  //criaçao de um novo objeto
 //		
-//		static contador1.incrementar();
+//		static contador1.incrementar();       
 //		
 //		System.out.println(contador1.getValor());
 //		System.out.println(contador2.getValor());
