@@ -13,7 +13,7 @@ public class main {
 		try (Scanner entrada = new Scanner(System.in)) {   //força a execução do scanner
 			List<Pessoa> lista = new ArrayList<Pessoa>();
 
-			for (int x = 0; x < 4; x++) {  //Laço de repetição para adiciona até 4 pessoas
+			for (int x = 0; x < 4; x++) {  //Laço de repetição para adicionar até 4 pessoas
 
 				Pessoa pessoa = new Pessoa(); //criação da pessoa
 				pessoa.setEndereco(new Endereco());
