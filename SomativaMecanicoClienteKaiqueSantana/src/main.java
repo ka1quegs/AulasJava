@@ -28,9 +28,9 @@ public class main {
 		try (BufferedWriter escrever = new BufferedWriter(new FileWriter("saida.txt"))) {
 			for (Cliente cliente : listaCliente) {
 				escrever.write(cliente.toString());
-				System.out.println("O cliente: " + cliente.getNome() + ",cpf: " + cliente.getCpf() + ",fez o serviÁo " + cliente.getServico().getNome());
-				System.out.println("Seu mecanico ser· o " + mecanico1.getNome());
-				System.out.println("Sua forma de pagamento ser· " + cliente.getFormaPag());
+				System.out.println("O cliente: " + cliente.getNome() + ",cpf: " + cliente.getCpf() + ",fez o servi√ßo " + cliente.getServico().getNome());
+				System.out.println("Seu mecanico ser√° o " + cliente.getMecanico.getNome());
+				System.out.println("Sua forma de pagamento ser√° " + cliente.getFormaPag());
 				System.out.println("Com valor total de R$ " + cliente.getValorPagarServico());
 				System.out.println("---------------------------------------------------------");
 
